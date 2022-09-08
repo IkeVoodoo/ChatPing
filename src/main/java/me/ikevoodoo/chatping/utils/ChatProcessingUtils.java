@@ -14,6 +14,10 @@ public class ChatProcessingUtils {
     private static final String PING_COLOR = "§e";
     private static final String PING_RESET = "§r";
 
+    private ChatProcessingUtils() {
+
+    }
+
     public static Pair<String, Set<Player>> parse(String message) {
         Set<Player> pingedPlayers = new HashSet<>();
 
