@@ -1,0 +1,9 @@
+name: ChatPing
+version: '${project.version}'
+main: me.ikevoodoo.chatping.ChatPing
+api-version: 1.17
+authors: [ IkeVoodoo ]
+description: Chat Pinging
+
+libraries:
+  - org.apache.commons:commons-lang3:3.12.0
